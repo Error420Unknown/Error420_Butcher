@@ -28,9 +28,9 @@ PLEASE MAKE SURE TO READ THIS ENTIRE FILE AS IT COVERS SOME IMPORTANT INFORMATIO
 - Add your own methods of obtaining the butcher job
 
 ## JOB
-
+```
 butcher = { label = 'Butcher', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Factory Worker', payment = 50 } } },
-
+```
 ## QB-CORE ITEMS
 
 ```
