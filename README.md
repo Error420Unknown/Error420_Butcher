@@ -11,7 +11,7 @@ PLEASE MAKE SURE TO READ THIS ENTIRE FILE AS IT COVERS SOME IMPORTANT INFORMATIO
 - Extensive config file to make multiple changes
 - Secure events to prevent exploits and abuse
 - Change core settings to suit your server
-- Support for ANY MLO or building - moveable target locations
+- Support for ANY MLO or building (moveable target locations)
 
 ## DEPENDENCIES
 
@@ -22,10 +22,10 @@ PLEASE MAKE SURE TO READ THIS ENTIRE FILE AS IT COVERS SOME IMPORTANT INFORMATIO
 
 ## INSTALLATION
 
-- Add the ##ITEMS snippet below into your core/shared/items.lua file - ox_inventory users place the snippet in inventory/data/items.lua
-- Add the ##JOB snippet below to your core/shared/jobs.lua
-- Add all .png images inside [images] folder into your inventory/html/images folder - ox_inventory users place images inside inventory/web/images
-- Add your own methods of obtaining the butcher job - perhaps city hall?
+- Add the items snippet below into your qb-core/shared/items.lua file | ox_inventory users place the items snippet in ox_inventory/data/items.lua
+- Add the job snippet below to qb-core/shared/jobs.lua
+- Add all .png images inside [inv_images] folder into qb-inventory/html/images folder | ox_inventory users place images inside ox_inventory/web/images
+- Add your own methods of obtaining the butcher job
 
 ## JOB
 
