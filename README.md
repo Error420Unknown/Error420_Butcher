@@ -11,7 +11,7 @@ PLEASE MAKE SURE TO READ THIS ENTIRE FILE AS IT COVERS SOME IMPORTANT INFORMATIO
 - Extensive config file to make multiple changes
 - Secure events to prevent exploits and abuse
 - Change core settings to suit your server
-- Support for ANY MLO or building (moveable target locations)
+- Support for any MLO or Building (Moveable target locations)
 
 ## DEPENDENCIES
 
@@ -29,7 +29,14 @@ PLEASE MAKE SURE TO READ THIS ENTIRE FILE AS IT COVERS SOME IMPORTANT INFORMATIO
 
 ## JOB
 ```
-butcher = { label = 'Butcher', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Factory Worker', payment = 50 } } },
+butcher = {
+	label = 'Butcher',
+	defaultDuty = false,
+	offDutyPay = false,
+	grades = {
+		['0'] = { name = 'Factory Worker', payment = 50 }
+	},
+},
 ```
 ## QB-CORE ITEMS
 
